@@ -1,0 +1,513 @@
+#navbarNavAltMarkup{
+    margin-left: 30%;
+}
+.navbar-nav a:hover{
+    text-decoration: underline yellow 3px;
+    /* border-bottom: 3px solid yellow; */
+}
+.logo{
+    margin-left: 30px;
+}
+
+.ii{
+    margin-left: 380px;
+}
+
+#s1,#s2{
+    margin:0px 5px;
+}
+.main h1 i{
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    background: url(./images/images/bannerBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.main div{
+    position: absolute;
+    left: 50px;
+    top: 60%;
+}
+.main div button{
+    background-color: yellow;
+    padding: 5px 10px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 200px;
+    gap: 40px;
+}
+.products i{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.products-collection{
+    margin-left: 200px;
+    display: flex;
+    height: 250px;
+}
+.products-collection img{
+    margin-left: 30px;
+}
+
+.lo{
+    width: 300px;
+    text-align: justify;
+}
+.lo a{
+    color: black;
+    text-decoration: underline 3px yellow;
+}
+.bulb{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    background-image: url(./images/images/home-filler.jpeg);
+}
+
+.fea1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 200px;
+    gap: 20px;
+}
+.box1 div{
+    padding: 35px 0px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(187, 183, 183, 0.507);
+}
+.seven{
+    background-color:rgb(233, 232, 232) ;
+    width:100%;
+    height:300px;
+    margin-top: 5%;
+}
+.seven1{
+    width:30%;
+    margin:0 auto;
+}
+#carouselimg{
+    padding:70px;
+    width:50px;
+    height:300px;
+}
+.new{
+    text-align: center;
+    margin: 50px 200px;
+}
+#email{
+    height: 40px;
+    width: 70%;
+    position: absolute;
+}
+.input i{
+    top: 0px;
+    left: 100%;
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    width: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    height: 35px;
+}
+.input{
+    margin: 50px 200px;
+}
+#btn input{
+    position: relative;
+    text-align: center;
+    top: 40px;
+    background-color: yellow;
+    padding: 5px 20px ;
+    border-radius: 10px ;
+}
+#btn{
+    text-align: center;
+}
+footer{
+    background-color:rgb(39, 35, 44);
+    height: 300px;
+}
+footer i{
+    position: relative;
+    padding:5px;
+    border-radius: 50%;
+}
+.yy{
+    display: flex;
+    width: 300px;
+}
+.yy1{
+    display:flex;
+}
+
+#main{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 200px;
+}
+footer h3{
+    color: white;
+}
+footer p{
+    color: white;
+}
+.last{
+    /* background-image: linear-gradient(90deg,transparent, yellow,yellow);
+    background-attachment: fixed;
+    background-cli; */
+    background-color:rgb(82, 71, 71);
+    text-align: center;
+    padding: 50px 200px;
+}
+.hh{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: yellow;
+    border: 2px solid yellow ;
+}
+.social{
+    margin-top: 50px;
+}
+.last p{
+    margin-top: 50px;
+}
+.social i{
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.phone i{
+    color: beige;
+    padding: 20px;
+}
+
+
+
+/* meadia query */
+@media (max-width:1024px){
+    .main{
+        background: url(./images/images/bannerBcg.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }   
+    html{
+        font-size: 0.8rem;
+    }
+    .products-collection{
+        margin-left: 150px;
+        display: flex;
+        height: 250px;
+    }
+    .products-collection img{
+        margin-left: 30px;
+        height: 100px;
+        width: 100px;
+
+    }
+    .lo{
+        width: 200px;
+    }
+    .box1{
+        margin-left: auto;
+    }
+    .box1 div{
+        height: fit-content;
+        width: 150px;
+    }
+    .box1 img{
+        height: 100px;
+        width: 100px;
+    }
+    #email{
+        width: 61%;
+        height: 34px;
+    }
+    .input i{
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+    #s1{
+        position:absolute;
+        left: 80%;
+    }
+    #s2{
+        position:absolute;
+        left:83%;
+    }
+}
+
+/* tablet view */
+@media (max-width:768px){
+    
+    .products{
+        font-size: 1rem;
+        margin: 60px 50px;
+        gap: 20px;
+    }
+    .products-collection{
+        margin: 50px 80px;
+        height: 300px;
+    }
+    .products-collection .kk{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .products-collection img{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .lo{
+        width: 400px;
+    }
+    .box1 div{
+        height: 150px;
+        width: 150px;
+    }
+    .box1 img{
+        height: 100px;
+        width: 100px;
+    }
+    #email{
+        width: 51%;
+    }
+    #main{
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 50px 80px;
+    }
+    footer{
+        height: 200px;
+    }
+    .yy{
+        width: 180px;
+    }
+    .phone i{
+        color: white;
+        padding: 20px;
+        width: 100;
+    }
+}
+
+/* mobile */
+@media (max-width:425px) and (min-width:375px) {
+    .main{
+        background-position: center;
+        height: 400px;
+        width: 100%;
+    }   
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .products-collection{
+        display: block;
+        height: 380px;
+    }
+    .products-collection img{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .feature{
+        text-align: center;
+        margin: 50px 30px;
+    }
+    .bulb{
+        font-size: 1rem;
+        padding: 20px ;
+        width: fit-content;
+    }
+    .box{
+        margin: 0;
+    }
+    .box1 div{
+        height: 150px;
+        width: 150px;
+    }
+    .box1 img{
+        height: 80px;
+        width: 80px;
+    }
+    .seven{
+        width:100%;
+        height:200px;
+        padding-top: 7%;
+        margin-top: 10%;
+    }
+    #carouselimg{
+        padding:5px;
+        width:100px;
+        height:150px;
+    }
+    .new{
+        margin: 10px 10px;
+    }
+    #email{
+        width: auto;
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 30%;
+    }
+    .input i{
+        position: relative;
+        left: 30px;
+    }
+    #btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #main{
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 50px 80px;
+    }
+    footer{
+        height: 350px;
+    }
+    .yy{
+        width: 200px;
+    }
+    .phone i{
+        color: white;
+        padding: 20px;
+        width: 100;
+    }
+    .last{
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .hh{
+        font-size: 1.5rem;
+    }
+    .last p{
+        margin: 50px 10px;
+    }
+    .lo p{
+        width: 280px;
+    }
+
+}
+/* mobile small */
+@media (max-width:375px){
+
+    .products-collection{
+        height: 350px;
+        margin-right: auto;
+    }   
+    .products-collection img{
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    .lo p{
+        width: 240px;
+    }
+
+    .box1{
+        margin: auto;
+    }
+    .fea1{
+        padding: 0px 30px;
+    }
+    .bulb{ 
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .bulb h2{
+        font-size: 1rem;
+    }
+    .bulb p{
+        text-align: center;
+        width: 280px;
+    }
+    .new {
+        margin: 20px;
+    }
+    #email{
+        left: 30%;
+    }
+    .new{
+    position: relative;
+    }   
+    #btn {
+    position: absolute;
+    left: 35%;
+    }
+    #main{
+        padding: 50px 50px;
+    }
+    .bulb
+    footer{
+        margin-top: 100px;
+        height: 310px;
+    }
+    .yy{
+        width: 200px;
+    }
+    .main{
+        background-position: center;
+        height: 400px;
+        width: 100%;
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
